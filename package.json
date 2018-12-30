@@ -1,0 +1,22 @@
+{
+  "name": "prism-theme-night-owl",
+  "version": "1.0.0",
+  "description": "Night Owl theme port to prism",
+  "main": "style.min.css",
+  "scripts": {
+    "build": "cleancss -o style.min.css style.css",
+    "build:page": "fiddly"
+  },
+  "author": "Sara Vieira",
+  "repository": {
+    "url": "https://github.com/SaraVieira/prism-theme-night-owl"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css": "^4.2.1",
+    "clean-css-cli": "^4.2.1"
+  },
+  "dependencies": {
+    "fiddly": "^0.7.4"
+  }
+}
