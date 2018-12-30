@@ -2,7 +2,7 @@
 
 A port of the popular VSCode theme [Night Owl](https://github.com/sdras/night-owl-vscode-theme) by [Sarah Drasner](https://github.com/sdras/) to prism.
 
-## Example shots:
+## Example shots
 
 ### JS
 
@@ -25,7 +25,7 @@ import 'prism-theme-night-owl'
 or
 
 ```html
-<script src="https://unpkg.com/prism-theme-night-owl@1.0.0/style.min.css"></script>
+<script src="https://unpkg.com/prism-theme-night-owl@1.0.1/style.min.css"></script>
 ```
 
 MIT License, see the included [License.md](License.md) file.
