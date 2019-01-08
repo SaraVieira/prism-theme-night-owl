@@ -25,7 +25,7 @@ import 'prism-theme-night-owl'
 or
 
 ```html
-<script src="https://unpkg.com/prism-theme-night-owl@1.0.1/style.min.css"></script>
+<link href="https://unpkg.com/prism-theme-night-owl@1.0.1/style.min.css" rel="stylesheet">
 ```
 
 MIT License, see the included [License.md](License.md) file.
