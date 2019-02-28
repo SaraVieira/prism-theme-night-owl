@@ -16,6 +16,10 @@ A port of the popular VSCode theme [Night Owl](https://github.com/sdras/night-ow
 
 ![JS Example](./css.png)
 
+## Install
+
+`npm install --save prism-theme-night-owl`
+
 ## Usage
 
 ```js
