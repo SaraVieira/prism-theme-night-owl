@@ -14,9 +14,10 @@
   "license": "MIT",
   "devDependencies": {
     "clean-css": "^4.2.1",
-    "clean-css-cli": "^4.2.1"
+    "clean-css-cli": "^4.2.1",
+    "fiddly": "^0.7.4"
   },
   "dependencies": {
-    "fiddly": "^0.7.4"
+    
   }
 }
