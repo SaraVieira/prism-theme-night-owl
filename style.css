@@ -51,6 +51,7 @@ pre {
 
 :not(pre) > code,
 pre {
+  color: white;
   background: #011627;
 }
 
