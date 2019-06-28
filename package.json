@@ -1,6 +1,6 @@
 {
   "name": "prism-theme-night-owl",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Night Owl theme port to prism",
   "main": "style.min.css",
   "scripts": {
@@ -17,7 +17,5 @@
     "clean-css-cli": "^4.2.1",
     "fiddly": "^0.7.4"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
