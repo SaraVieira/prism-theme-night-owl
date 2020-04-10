@@ -30,7 +30,7 @@ or
 
 ```html
 <link
-  href="https://unpkg.com/prism-theme-night-owl@1.3.0/build/style.css"
+  href="https://unpkg.com/prism-theme-night-owl@1.4.0/build/style.css"
   rel="stylesheet"
 />
 ```
@@ -43,7 +43,7 @@ import "prism-theme-night-owl/build/no-italics.css";
 
 ```html
 <link
-  href="https://unpkg.com/prism-theme-night-owl@1.3.0/build/no-italics.css"
+  href="https://unpkg.com/prism-theme-night-owl@1.4.0/build/no-italics.css"
   rel="stylesheet"
 />
 ```
@@ -56,7 +56,7 @@ import "prism-theme-night-owl/build/light.css";
 
 ```html
 <link
-  href="https://unpkg.com/prism-theme-night-owl@1.3.0/build/light.css"
+  href="https://unpkg.com/prism-theme-night-owl@1.4.0/build/light.css"
   rel="stylesheet"
 />
 ```
@@ -69,7 +69,7 @@ import "prism-theme-night-owl/build/light-no-italics.css";
 
 ```html
 <link
-  href="https://unpkg.com/prism-theme-night-owl@1.3.0/build/light-no-italics.css"
+  href="https://unpkg.com/prism-theme-night-owl@1.4.0/build/light-no-italics.css"
   rel="stylesheet"
 />
 ```
