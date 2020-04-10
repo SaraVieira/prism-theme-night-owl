@@ -65,7 +65,6 @@ pre[class*="language-"] {
 .token.prolog,
 .token.cdata {
   color: rgb(99, 119, 119);
-  font-style: italic;
 }
 
 .token.punctuation {
@@ -78,7 +77,6 @@ pre[class*="language-"] {
 
 .token.deleted {
   color: rgba(239, 83, 80, 0.56);
-  font-style: italic;
 }
 
 .token.symbol,
@@ -110,13 +108,11 @@ pre[class*="language-"] {
 .token.selector,
 .token.doctype {
   color: rgb(199, 146, 234);
-  font-style: italic;
 }
 
 .token.attr-name,
 .token.inserted {
   color: rgb(173, 219, 103);
-  font-style: italic;
 }
 
 .token.string,
@@ -145,5 +141,4 @@ pre[class*="language-"] {
 }
 
 .token.italic {
-  font-style: italic;
 }
