@@ -2,9 +2,12 @@
   "name": "prism-theme-night-owl",
   "version": "1.3.0",
   "description": "Night Owl theme port to prism",
-  "main": "build/style.min.css",
+  "files": [
+    "build/**/*"
+  ],
+  "main": "build/style.css",
   "scripts": {
-    "build": "cleancss -o build/style.min.css style.css -o build/no-italics.min.css no-italics.css",
+    "build": "cleancss -o build/style.css style.css -o build/no-italics.css no-italics.css",
     "build:page": "fiddly"
   },
   "author": "Sara Vieira",

@@ -30,9 +30,15 @@ or
 
 ```html
 <link
-  href="https://unpkg.com/prism-theme-night-owl@1.3.0/style.min.css"
+  href="https://unpkg.com/prism-theme-night-owl@1.3.0/style.css"
   rel="stylesheet"
 />
+```
+
+### No italics version
+
+```js
+import "prism-theme-night-owl/build/no-italics.css";
 ```
 
 MIT License, see the included [License.md](License.md) file.
