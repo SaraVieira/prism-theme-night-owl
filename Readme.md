@@ -30,7 +30,7 @@ or
 
 ```html
 <link
-  href="https://unpkg.com/prism-theme-night-owl@1.3.0/style.css"
+  href="https://unpkg.com/prism-theme-night-owl@1.3.0/build/style.css"
   rel="stylesheet"
 />
 ```
@@ -39,6 +39,39 @@ or
 
 ```js
 import "prism-theme-night-owl/build/no-italics.css";
+```
+
+```html
+<link
+  href="https://unpkg.com/prism-theme-night-owl@1.3.0/build/no-italics.css"
+  rel="stylesheet"
+/>
+```
+
+### Light version
+
+```js
+import "prism-theme-night-owl/build/light.css";
+```
+
+```html
+<link
+  href="https://unpkg.com/prism-theme-night-owl@1.3.0/build/light.css"
+  rel="stylesheet"
+/>
+```
+
+### Light no italics version
+
+```js
+import "prism-theme-night-owl/build/light-no-italics.css";
+```
+
+```html
+<link
+  href="https://unpkg.com/prism-theme-night-owl@1.3.0/build/light-no-italics.css"
+  rel="stylesheet"
+/>
 ```
 
 MIT License, see the included [License.md](License.md) file.

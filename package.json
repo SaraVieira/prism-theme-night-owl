@@ -7,7 +7,11 @@
   ],
   "main": "build/style.css",
   "scripts": {
-    "build": "cleancss -o build/style.css style.css && cleancss -o build/no-italics.css no-italics.css",
+    "build:normal": "cleancss -o build/style.css style.css",
+    "build:no-italic": "cleancss -o build/no-italics.css no-italics.css",
+    "build:light": "cleancss -o build/light.css light.css",
+    "build:light-no-italic": "cleancss -o build/light-no-italics.css light-no-italics.css",
+    "build": "npm run build:normal && npm run build:light && npm run build:no-italic && npm run build:light-no-italic ",
     "build:page": "fiddly",
     "prepublish": "npm run build"
   },
