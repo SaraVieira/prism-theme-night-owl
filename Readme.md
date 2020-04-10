@@ -23,13 +23,16 @@ A port of the popular VSCode theme [Night Owl](https://github.com/sdras/night-ow
 ## Usage
 
 ```js
-import 'prism-theme-night-owl'
+import "prism-theme-night-owl";
 ```
 
 or
 
 ```html
-<link href="https://unpkg.com/prism-theme-night-owl@1.0.1/style.min.css" rel="stylesheet">
+<link
+  href="https://unpkg.com/prism-theme-night-owl@1.3.0/style.min.css"
+  rel="stylesheet"
+/>
 ```
 
 MIT License, see the included [License.md](License.md) file.
