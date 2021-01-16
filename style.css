@@ -69,7 +69,6 @@ pre[class*="language-"] {
 }
 
 .token.punctuation,
-.token.function,
 .token.selector,
 .token.doctype {
   color: rgb(199, 146, 234);
@@ -116,6 +115,11 @@ pre[class*="language-"] {
 .token.builtin,
 .token.char {
   color: rgb(130, 170, 255);
+}
+
+.token.function {
+  color: rgb(130, 170, 255);
+  font-style: italic;
 }
 
 .token.attr-name,
