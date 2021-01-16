@@ -68,12 +68,21 @@ pre[class*="language-"] {
   font-style: italic;
 }
 
-.token.punctuation {
+.token.punctuation,
+.token.function,
+.token.selector,
+.token.doctype {
   color: rgb(199, 146, 234);
+  font-style: italic;
 }
 
-.namespace {
+.token.namespace {
   color: rgb(178, 204, 214);
+}
+
+.token.changed {
+  color: rgb(162, 191, 252);
+  font-style: italic;
 }
 
 .token.deleted {
@@ -86,7 +95,10 @@ pre[class*="language-"] {
   color: rgb(128, 203, 196);
 }
 
-.token.tag,
+.token.tag {
+  color: rgb(202, 236, 230);
+}
+
 .token.operator,
 .token.keyword {
   color: rgb(127, 219, 202);
@@ -101,30 +113,26 @@ pre[class*="language-"] {
 }
 
 .token.constant,
-.token.function,
 .token.builtin,
 .token.char {
   color: rgb(130, 170, 255);
 }
 
-.token.selector,
-.token.doctype {
-  color: rgb(199, 146, 234);
-  font-style: italic;
-}
-
 .token.attr-name,
 .token.inserted {
-  color: rgb(173, 219, 103);
+  color: rgb(197, 228, 120);
   font-style: italic;
 }
 
 .token.string,
-.token.url,
 .token.entity,
 .language-css .token.string,
 .style .token.string {
-  color: rgb(173, 219, 103);
+  color: rgb(236, 196, 141);
+}
+
+.token.url {
+  color: rgb(197, 228, 120);
 }
 
 .token.class-name,
@@ -133,10 +141,13 @@ pre[class*="language-"] {
   color: rgb(255, 203, 139);
 }
 
-.token.regex,
+.token.regex {
+  color: rgb(92, 167, 228);
+}
+
 .token.important,
 .token.variable {
-  color: rgb(214, 222, 235);
+  color: rgb(236, 196, 141);
 }
 
 .token.important,
